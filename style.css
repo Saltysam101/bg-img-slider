@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: teal;
+    color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#image-container{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 600px;
+    width: auto;
+}
+button{
+    height: 60px;
+    width: 120px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    margin: 25px;
+}
+button:hover{
+    background-color: gray;
+    border-color: gray;
+    color: aliceblue;
+}
